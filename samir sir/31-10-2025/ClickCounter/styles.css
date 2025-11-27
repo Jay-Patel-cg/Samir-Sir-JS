@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.container{
+    height: 730px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+}
+.container h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    margin-top: 30px;
+}
+.subtitle{
+    height: 40px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.score-section{
+    height: 200px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.score-box{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    margin: 10px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* font-size: small; */
+}
+.score-box h2{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px; 
+}
+.score{
+    font-size: 36px;
+    font-weight: bold;
+}
+.timer-section{
+    height: 160px;
+    width: 80%;
+    background-color: aquamarine;
+    color: black;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+.timer-section h2{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px; 
+}
+.timer{
+    font-size: 36px;
+    font-weight: bold;   
+    color: blue;
+}
+.button-section{
+    height: 170px;
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 40px;
+    /* background-color: aqua; */
+}
+.click-btn{
+    height: 80px;
+    width: 100%;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 10px;
+}
+.start-btn{
+    height: 40px;
+    width: 100%;
+    background-color: blueviolet;
+    color: white;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.reset-btn{
+     height: 40px;
+    width: 100%;
+    background-color: green;
+    color: white;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.status-message{
+    height: 35px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px
+}
+.video{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    display: none;
+}
