@@ -96,9 +96,3 @@ document.addEventListener("wheel", (event) => {
     }
 //   console.log("Scrolled Position :", event.deltaY);
 });
-
-
-
-
-
-
